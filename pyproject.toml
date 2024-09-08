@@ -1,0 +1,13 @@
+[project]
+name = "bookchat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ollama>=0.3.2",
+    "litellm>=1.44.22",
+    "textual>=0.79.1",
+    "rich>=13.8.0",
+    "prompt-toolkit>=3.0.47",
+]
